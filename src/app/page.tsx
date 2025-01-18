@@ -30,7 +30,7 @@ export default function Home() {
           <div className="bg-white text-gray-800 p-6 rounded-lg shadow-lg">
             <h3 className="text-2xl font-semibold">Customizable Layout</h3>
             <p className="mt-4">
-              Customize your blog's layout and style to match your personal preferences.
+              Customize your blog&apos;s layout and style to match your personal preferences.
             </p>
           </div>
 
