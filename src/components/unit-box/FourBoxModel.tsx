@@ -8,7 +8,7 @@ interface PropsInterface{
 const FourBoxModel =( props:PropsInterface )=>{
     return(
         <div className="grid grid-cols-4 gap-1">
-            <div className="">
+            {/* <div className="">
                 <BoxUnit></BoxUnit>
             </div>
             <div className="">
@@ -19,7 +19,7 @@ const FourBoxModel =( props:PropsInterface )=>{
             </div>
             <div className="">
                 <BoxUnit></BoxUnit>
-            </div>
+            </div> */}
         </div>
     )
 }

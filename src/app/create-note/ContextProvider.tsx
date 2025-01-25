@@ -19,9 +19,3 @@ export const NoteContextProvider: React.FC<{ children: ReactNode }> = ({ childre
         </NoteContext.Provider>
     );
 };
-
-// Custom hook to use the context
-export const useNoteContext = (): CreateNoteContext|undefined => {
-    const context = useContext(NoteContext);
-    return context;
-};
