@@ -13,7 +13,7 @@ export default function Home() {
         {/* Call to Action */}
         <div className="mt-8">
           <a
-            href="/create-blog" // Link this to the actual blog creation page
+            href="/create-note" // Link this to the actual blog creation page
             className="inline-block px-8 py-3 bg-indigo-600 text-white font-semibold rounded-lg shadow-md hover:bg-indigo-700 transition-colors"
           >
             Create Your Own Blog
